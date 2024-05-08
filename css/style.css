@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+}
+
+/* Section Card */
+#section_card {
+  background-color: hsl(213, 19%, 18%);
+  width: 250px;
+  height: 280px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card_img {
+  background-color: hsl(210deg 6% 20%);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.card_header {
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass";
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 0 15px 0;
+}
+
+.card_par {
+  color: hsl(217, 12%, 63%);
+  font-family: "Overpass";
+  font-weight: 400;
+}
+
+.num_div {
+  margin: 20px 0 20px 0;
+}
+
+#num_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#number {
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(210deg 6% 20%);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#number:hover {
+  background: hsl(25, 97%, 53%);
+  color: white;
+}
+
+#submit {
+  background: hsl(25, 97%, 53%);
+  padding: 10px 90px;
+  border-radius: 20px;
+  border-style: none;
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: "Overpass";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+/* Section Thankyou */
+#section_thankyou { 
+  background-color: hsl(213, 19%, 18%);
+  width: 250px;
+  height: 280px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  display: none;
+}
+
+#selected_num {
+  color: hsl(25, 97%, 53%);
+  margin-top: 15px;
+  background: hsl(217deg 3% 28%);
+  padding: 3px 15px;
+  border-radius: 10px;
+}
+
+.thankyou_header {
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass";
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 0 15px 0;
+}
+
+.thankyou_par {
+  color: hsl(217, 12%, 63%);
+}
